@@ -3,13 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/book/</loc>
-    <priority>0</priority>
+    <loc>/adjacent-jsx-elements-wrapped-enclosing-tag-react-error/</loc>
   </url>
   
   <url>
@@ -18,11 +12,45 @@
   </url>
   
   <url>
-    <loc>/react-state-by-example/</loc>
+    <loc>/error/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/create-functional-component-tutorial/</loc>
+  </url>
+  
+  <url>
+    <loc>/create-class-component-tutorial/</loc>
+  </url>
+  
+  <url>
+    <loc>/hello-world-tutorial/</loc>
+  </url>
+  
+  <url>
+    <loc>/include-component-inside-other-components-tutorial/</loc>
+  </url>
+  
+  <url>
+    <loc>/pass-data-between-components-props-tutorial/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+  </url>
+  
+  <url>
+    <loc>/rendering-components-directly-document-body-react-error/</loc>
   </url>
   
   <url>
     <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tutorial/</loc>
     <priority>0</priority>
   </url>
   

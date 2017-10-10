@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ .Title }}</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/prism.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/themes/prism.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js"></script>
+  </head>
+  <body>
+
+  <div class="ui basic segment very padded">
+    <div class="ui container text">
+
+      <h1>
+        {{ .Title }}
+      </h1>
+
+      <!-- <p>
+        <strong>Words:</strong> {{ .WordCount }}
+      </p> -->
+
+      {{ .Content }}
+
+    </div>
+  </div>
+
+  </body>
+</html>
