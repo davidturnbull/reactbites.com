@@ -1,6 +1,6 @@
 ---
 title: "React Bites"
-slug: "/"
+url: "/"
 ---
 
 This is React Bites, a growing list of beginner-friendly tutorials for the React JavaScript library.
