@@ -1,3 +1,4 @@
+baseurl: "http://www.reactbites.com"
 permalinks:
   tutorial: /:slug/
   error: /:slug/
