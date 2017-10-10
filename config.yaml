@@ -1,0 +1,3 @@
+permalinks:
+  tutorial: /:slug/
+  error: /:slug/
