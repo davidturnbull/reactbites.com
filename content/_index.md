@@ -8,9 +8,10 @@ This is React Bites, a growing list of beginner-friendly tutorials for the React
 
 1. ~~What is React?~~
 2. ~~Why React?~~
-3. ~~How To Install React~~
-4. ~~How To Create a React Project with `create-react-app`~~
-5. [How To Create a "Hello World" Project in React](/hello-world-tutorial)
+3. ~~How To Create a React Project~~
+  * [How To Create a React Project with CodePen](/create-react-project-codepen-tutorial)
+  * ~~How To Create a React Project with `create-react-app`~~
+4. [How To Create a "Hello World" Project in React](/hello-world-tutorial)
 
 ## Components
 
@@ -23,8 +24,7 @@ This is React Bites, a growing list of beginner-friendly tutorials for the React
 ## State
 
 1. ~~What is State?~~
-2. [React State By Example, Part 1: Incrementing Numbers](#)
-3. [React State By Example, Part 2: Sorting Lists](#)
+2. [React State By Example, Part 1: Incrementing Numbers](/react-state-tutorial-create-update-state-object)
 
 ## Errors
 

@@ -22,26 +22,13 @@ For our first component, we're going to create a functional component, because e
 
 ## Project Setup
 
-To begin, copy the following code into a HTML file:
+To begin, open this project I've created via CodePen:
 
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Hello World</title>
-    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="text/javascript">
-      ReactDOM.render(<h1>Hello World</h1>, document.getElementById("root"));
-    </script>
-  </body>
-</html>
-```
+<https://codepen.io/anon/pen/NaEXxR>
 
-This is the final code from [the "Hello World" tutorial](/hello-world-tutorial), and it's what we'll use as our starting point for this example.
+This project contains the final code from [the "Hello World" tutorial](/hello-world-tutorial) and we'll use this code as our starting point for this example.
+
+If you're not familiar with CodePen, you might like to learn [How To Setup a React Project with CodePen](#). Basically though, it's the fastest way for us to start writing React code. It's not, however, the method we'll be using throughout most of our React development.
 
 ## Creating a Component
 

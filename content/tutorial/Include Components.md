@@ -5,6 +5,8 @@ slug: "include-component-inside-other-components-tutorial"
 
 In this tutorial, we're going to learn how to include components inside other components. This is an essential aspect of using React, as it allows us to build components that can be used (and reused) in different contexts, significantly reducing the amount of code we have to write and maintain.
 
+## Project Setup
+
 To begin, create a new React project with `create-react-app`:
 
 ```bash
@@ -20,7 +22,7 @@ yarn start
 
 You'll now be able to view the project at <http://localhost:3000>.
 
-It's possible to include components inside other components using a web-based playground, such as CodePen, but there's certain features we're about to explore that require the use of a module bundler, so it's convenient that `create-react-app` is built around Webpack.
+**Note:** It's possible to include components inside other components using a web-based playground, such as CodePen, but there's certain features we're about to explore that require the use of a module bundler, so it's convenient that `create-react-app` is built around Webpack.
 
 Next, replace the contents of the "App.js" file with the following:
 
@@ -39,6 +41,8 @@ export default App;
 ```
 
 This is an unremarkable component that outputs the words "Hello world" inside a `ul` element.
+
+## Including Components
 
 To include another component inside this component, first create another component inside the "App.js" file. (It doesn't specifically matter where you create this component. It could be above or below the "App" component.)
 
@@ -95,7 +99,9 @@ function App() {
 
 The same component will now appear six times within the "App" component.
 
-But it's not practical to create and manage multiple components from inside a single file. The preferred way of working would be to have each component in a separate file. That way, they could be managed separately from the rest of the code.
+## Importing Components
+
+It's not practical to create and manage multiple components from inside a single file. The preferred way of working would be to have each component in a separate file. That way, they could be managed separately from the rest of the code.
 
 To achieve this, create a "Person.js" file inside the project's `src` directory.
 
